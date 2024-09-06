@@ -2,18 +2,16 @@
     <head>
         <title>Limbus Company</title>
         <link rel="stylesheet" href="css/style.css">
-        <script href="scripts/script.js"></script>
-        </audio>
+        <audio id="limbussy" src="../sounds/Limbus Company - In Hell We Live, Lament (Instrumental).mp3"></audio>
+        <script src="scripts/script.js"></script>
     </head>
     <body>
-        <audio id="LamentBGM" autoplay loop>
-            <source src="sounds/Limbus Company - In Hell We Live, Lament (Instrumental).mp3" type="audio/mp3">
         </audio>
         <div class="mainpage">
             <div class="logo"><b>There'll be logo of the site (in the middle)</b></div>
             <div class="left_menu">
                 <div class="buttons">
-                    <div id="idbutton"><img src="images/id.png"></div>
+                    <div id="idbutton"><img id="idmusic" src="images/id.png" onclick="toggleAudio()" style="cursor: pointer;"></div>
                     <div id="egobutton"><img src="images/ego.webp"></div>
                 </div>
             </div>
