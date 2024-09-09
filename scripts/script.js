@@ -6,7 +6,7 @@ const audio = new Audio('../sounds/Limbus Company - In Hell We Live, Lament (Ins
 let playing = 1
 // Функция для воспроизведения аудио
 function playAudio() {
-    audio.volume = 0.1;  // Устанавливаем громкость на максимум
+    audio.volume = 0.1;  // Уменьшает громкость на 0 (безвозвратно)
     audio.play();
 }
 // Воспроизводим аудио автоматически при загрузке страницы или по какому-то событию
