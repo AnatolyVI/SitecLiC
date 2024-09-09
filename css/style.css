@@ -16,8 +16,13 @@ body{
     border: 2px solid #5c5c5c;
     position: sticky;
     bottom: 100%;
-    height: 5%;
+    height: calc(100% - 90%);
     width: calc(100% - 4px);
+}
+
+#limbuslogo {
+    width: calc(3 * calc(1vw + 1vh));
+    height: calc(3 * calc(1vw + 1vh));
 }
 
 .logo_font {
@@ -26,7 +31,7 @@ body{
 
 .left_menu_invis {
     width: 87px;
-    height: calc(95% - 4px);
+    height: calc(95% - 60px);
     margin: 0;
 }
 
@@ -49,9 +54,9 @@ body{
     background-color: #5c5c5c;
     position: absolute;
     margin-left: 150px;
-    margin-top: 20px;
+    margin-top: 5%;
     width: 90%;
-    height: 90%;
+    height: 80%;
 }
 
 .buttons {
