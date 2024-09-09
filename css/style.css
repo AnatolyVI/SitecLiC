@@ -13,42 +13,52 @@ body{
 
 .logo{
     background-color: #252525;
-    border: 2px solid #5c5c5c;
+    border: calc(0.1vw + 0.1vh) solid #5c5c5c;
     position: sticky;
     bottom: 100%;
-    height: 50px;
-    width: 100%;
+    height: 5%;
+    width: calc(100% - 2px);
 }
 
-.left_menu{
+.logo_font {
+    font-size: calc(1vw + 1vh);
+}
+
+.left_menu_invis {
+    background-color: aqua;
+    width: calc(85px + 2px);
+    height: calc(95% - 2px);
+    margin: 0;
+}
+
+.left_menu {
     background-color: #252525;
     border: 2px solid #5c5c5c;
     position: sticky;
     top: 40%;
-    width: 45px;
-    height: 95px;
-    border-radius: 10px;
+    width: 85px;
+    height: 155px;
+    border-radius: 12px;
 }
 
 .buttons {
+    height: calc(1vw + 1vh);
+    width: calc(1vw + 1vh);
     background-color: none;
     position: absolute;
-    top: 0px;
-    height: 85px;
+    height: 100%;
     width: 100%;
 }
 
 #idbutton {
     border-bottom: 2px solid #5c5c5c;
-    padding-left: 3.5px;
-    padding-top: 4px;
 }
 
-#egobutton {
-    padding-left: 3.5px;
-    padding-top: 4px;
-}
+
 
 img {
-    width: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70px;
 }
